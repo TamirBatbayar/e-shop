@@ -1,0 +1,149 @@
+itet@itet ~/apps/e-shop $ git push heroku master
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 488 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Using set buildpack heroku/ruby
+remote: -----> Ruby app detected
+remote: -----> Compiling Ruby/Rails
+remote: -----> Using Ruby version: ruby-2.2.3
+remote: -----> Installing dependencies using bundler 1.9.7
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+remote:        Using rake 10.4.2
+remote:        Using i18n 0.7.0
+remote:        Using json 1.8.3
+remote:        Using minitest 5.8.3
+remote:        Using thread_safe 0.3.5
+remote:        Using builder 3.2.2
+remote:        Using erubis 2.7.0
+remote:        Using mini_portile 0.6.2
+remote:        Using rack 1.6.4
+remote:        Using mime-types 2.99
+remote:        Using arel 6.0.3
+remote:        Using addressable 2.3.8
+remote:        Using execjs 2.6.0
+remote:        Using bcrypt 3.1.10
+remote:        Using sass 3.4.19
+remote:        Using camertron-eprun 1.1.0
+remote:        Using cancancan 1.10.1
+remote:        Using bundler 1.9.7
+remote:        Using thor 0.19.1
+remote:        Using cldr-plurals-runtime-rb 1.0.1
+remote:        Using coffee-script-source 1.10.0
+remote:        Using colorize 0.7.7
+remote:        Using polyglot 0.3.5
+remote:        Using orm_adapter 0.5.0
+remote:        Using ffaker 1.32.1
+remote:        Using google-analytics-rails 0.0.6
+remote:        Using highline 1.6.21
+remote:        Using htmlentities 4.3.4
+remote:        Using multi_xml 0.5.5
+remote:        Using multi_json 1.11.2
+remote:        Using pg 0.18.4
+remote:        Using rails_serve_static_assets 0.0.4
+remote:        Using rails_stdout_logging 0.0.4
+remote:        Using rdoc 4.2.0
+remote:        Using tilt 2.0.1
+remote:        Using state_machines 0.4.0
+remote:        Using stringex 2.5.2
+remote:        Using truncate_html 0.9.2
+remote:        Using money 6.6.1
+remote:        Using nokogiri 1.6.6.4
+remote:        Using rack-test 0.6.3
+remote:        Using sprockets 3.4.0
+remote:        Using warden 1.2.3
+remote:        Using mail 2.6.3
+remote:        Using css_parser 1.3.7
+remote:        Using autoprefixer-rails 6.1.0.1
+remote:        Using uglifier 2.7.2
+remote:        Using tzinfo 1.2.2
+remote:        Using select2-rails 3.5.9.1
+remote:        Using spree_cmd 3.0.4
+remote:        Using coffee-script 2.4.1
+remote:        Using httparty 0.13.7
+remote:        Using rails_12factor 0.0.3
+remote:        Using monetize 1.3.1
+remote:        Using loofah 2.0.3
+remote:        Using premailer 1.8.6
+remote:        Using bootstrap-sass 3.3.5.1
+remote:        Using activesupport 4.2.5
+remote:        Using twitter_cldr 3.2.1
+remote:        Using sdoc 0.4.1
+remote:        Using rails-html-sanitizer 1.0.2
+remote:        Using rails-deprecated_sanitizer 1.0.3
+remote:        Using globalid 0.3.6
+remote:        Using activemerchant 1.47.0
+remote:        Using activemodel 4.2.5
+remote:        Using carmen 1.0.2
+remote:        Using climate_control 0.0.3
+remote:        Using jbuilder 2.3.2
+remote:        Using rabl 0.9.4.pre1
+remote:        Using rails-dom-testing 1.0.7
+remote:        Using activejob 4.2.5
+remote:        Using activerecord 4.2.5
+remote:        Using state_machines-activemodel 0.3.0
+remote:        Using cocaine 0.5.8
+remote:        Using actionview 4.2.5
+remote:        Using acts_as_list 0.7.2
+remote:        Using awesome_nested_set 3.0.2
+remote:        Using friendly_id 5.1.0
+remote:        Using paranoia 2.1.4
+remote:        Using polyamorous 1.2.0
+remote:        Using state_machines-activerecord 0.3.0
+remote:        Using paperclip 4.2.4
+remote:        Using actionpack 4.2.5
+remote:        Using actionmailer 4.2.5
+remote:        Using railties 4.2.5
+remote:        Using sprockets-rails 2.3.3
+remote:        Using kaminari 0.16.3
+remote:        Using ransack 1.4.1
+remote:        Using premailer-rails 1.8.2
+remote:        Using rails 4.2.5
+remote:        Using coffee-rails 4.1.0
+remote:        Using responders 2.1.0
+remote:        Using font-awesome-rails 4.4.0.0
+remote:        Using jquery-rails 4.0.5
+remote:        Using jquery-ui-rails 5.0.5
+remote:        Using sass-rails 5.0.4
+remote:        Using versioncake 2.3.1
+remote:        Using canonical-rails 0.0.11
+remote:        Using deface 1.0.2
+remote:        Using turbolinks 2.5.3
+remote:        Using devise 3.4.1
+remote:        Using spree_core 3.0.4
+remote:        Using devise-encryptable 0.1.2
+remote:        Using spree_sample 3.0.4
+remote:        Using spree_api 3.0.4
+remote:        Using spree_gateway 3.0.0.beta from git://github.com/spree/spree_gateway.git (at 3-0-stable)
+remote:        Using spree_auth_devise 3.0.0 from git://github.com/spree/spree_auth_devise.git (at 3-0-stable)
+remote:        Using spree_backend 3.0.4
+remote:        Using spree_frontend 3.0.4
+remote:        Using spree 3.0.4
+remote:        Bundle complete! 17 Gemfile dependencies, 110 gems now installed.
+remote:        Gems in the groups development and test were not installed.
+remote:        Bundled gems are installed into ./vendor/bundle.
+remote:        Bundle completed (0.52s)
+remote:        Cleaning up the bundler cache.
+remote:        Detected manifest file, assuming assets were compiled locally
+remote: 
+remote: ###### WARNING:
+remote:        No Procfile detected, using the default web server (webrick)
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server
+remote: 
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> (none)
+remote:        Default types for buildpack -> console, rake, web, worker
+remote: 
+remote: -----> Compressing... done, 46.8MB
+remote: -----> Launching... done, v6
+remote:        https://stormy-taiga-8029.herokuapp.com/ deployed to Heroku
+remote: 
+remote: Verifying deploy... done.
+To https://git.heroku.com/stormy-taiga-8029.git
+   3694759..f3db148  master -> master
+

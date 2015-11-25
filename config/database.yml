@@ -1,53 +1,53 @@
 #  ================= SQLite ========================================
 
-# default: &default
-#   adapter: sqlite3
-#   pool: 5
-#   timeout: 5000
+default: &default
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
 
-# development:
-#   <<: *default
-#   database: db/development.sqlite3
+development:
+  <<: *default
+  database: db/development.sqlite3
 
-# test:
-#   <<: *default
-#   database: db/test.sqlite3
+test:
+  <<: *default
+  database: db/test.sqlite3
 
-# production:
-#   <<: *default
-#   database: db/production.sqlite3
+production:
+  <<: *default
+  database: db/production.sqlite3
 
 
 # ================== PostgreSQL ====================================
-development:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
-  database: heroku_shop_development
-  pool:     5
-  username: heroku_shop
-  password: tamir
-  template: template0
+# development:
+#   adapter:  postgresql
+#   host:     localhost
+#   encoding: unicode
+#   database: heroku_shop_development
+#   pool:     5
+#   username: heroku_shop
+#   password: tamir
+#   template: template0
 
-test:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
-  database: heroku_shop_test
-  pool:     5
-  username: heroku_shop
-  password: tamir
-  template: template0
+# test:
+#   adapter:  postgresql
+#   host:     localhost
+#   encoding: unicode
+#   database: heroku_shop_test
+#   pool:     5
+#   username: heroku_shop
+#   password: tamir
+#   template: template0
 
-production:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
-  database: heroku_shop_production
-  pool:     5
-  username: heroku_shop
-  password: tamir
-  template: template0
+# production:
+#   adapter:  postgresql
+#   host:     localhost
+#   encoding: unicode
+#   database: heroku_shop_production
+#   pool:     5
+#   username: heroku_shop
+#   password: tamir
+#   template: template0
 # # ======================= MYSQL ======================================
 
 # development:
